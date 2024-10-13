@@ -1,0 +1,113 @@
+.insitesell_box1 {
+  width: 100%;
+  height: 550px;
+  background-image: url('../image/T-shirt1.png');
+  background-size: cover;
+  transition: background-image 0.3s ease;
+}
+
+.insitesell_box1:hover {
+  width: 100%;
+  height: 550px;
+  background-image: url('../image/hoodie1.jpg');
+
+}
+
+.insitesell_box2 {
+  width: 100%;
+  height: 550px;
+  background-image: url('../image/T-shirt2.png');
+  background-size: cover;
+  transition: background-image 0.3s ease;
+}
+
+.insitesell_box2:hover {
+  background-image: url('../image/hoodie2.jpg');
+  width: 100%;
+  height: 550px;
+}
+
+.insitesell_box3 {
+  width: 100%;
+  height: 550px;
+  background-image: url('../image/sweatshirt1-1.jpg');
+  background-size: cover;
+  transition: background-image 0.3s ease;
+}
+
+.insitesell_box3:hover {
+  background-image: url('../image/sweatshirt1.jpg');
+  width: 100%;
+  height: 550px;
+}
+
+.insitesell_box4 {
+  width: 100%;
+  height: 550px;
+  background-image: url('../image/tshirt4.jpg');
+  background-size: cover;
+  transition: background-image 0.3s ease;
+}
+
+.insitesell_box4:hover {
+  background-image: url('../image/tshrit2.jpg');
+  width: 100%;
+  height: 550px;
+}
+
+.insitesell_box5 {
+  width: 100%;
+  ;
+  height: 550px;
+  background-image: url('../image/T-shirt1.png');
+  background-size: cover;
+  transition: background-image 0.3s ease;
+}
+
+.insitesell_box5:hover {
+  background-image: url('../image/tshirt3.jpg');
+  width: 100%;
+  height: 550px;
+}
+
+.insitesell_box6 {
+  width: 100%;
+  height: 550px;
+  background-image: url('../image/hoodie7.jpg');
+  background-size: cover;
+  transition: background-image 0.3s ease;
+}
+
+.insitesell_box6:hover {
+  background-image: url('../image/hoodie3.jpg');
+  width: 100%;
+  height: 550px;
+}
+
+.insitesell_box8 {
+  width: 100%;
+  height: 550px;
+  background-image: url('../image/bag1.jpg');
+  background-size: cover;
+  transition: background-image 0.3s ease;
+}
+
+.insitesell_box8:hover {
+  background-image: url('../image/bag2.jpg');
+  width: 100%;
+  height: 550px;
+}
+
+.insitesell_box9 {
+  width: 100%;
+  height: 550px;
+  background-image: url('../image/mockup1.jpg');
+  background-size: cover;
+  transition: background-image 0.3s ease;
+}
+
+.insitesell_box9:hover {
+  background-image: url('../image/mockup2.jpg');
+  width: 100%;
+  height: 550px;
+}

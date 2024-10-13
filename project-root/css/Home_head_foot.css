@@ -1,0 +1,192 @@
+
+.text_top {
+    display: block;
+    box-sizing: border-box;
+    width:10%;
+}
+
+.img_top {
+    width: 100%;
+    height: 600px;
+}
+
+.text_mid{
+    font-size: 40px;
+    text-align: center;
+}
+.sell_box{
+    display: flex;
+    box-sizing: border-box;
+    flex-wrap: wrap;
+    justify-content: flex-start;
+}
+.sell_mid_box{
+    display: block;
+    box-sizing: border-box;
+    width: 33.33%;  
+}
+
+.TRENDING_NOW{
+    font-size: 40px;
+    text-align: center;
+}
+.img_low {
+    width: 100%;
+    height: 400px;
+}
+.nav {
+    background-color: #1c1c1c;
+    padding: 10px;
+    display: flex;
+    justify-content: center;
+}
+
+/* Main navigation links */
+.nav > ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    display: flex;
+}
+
+.nav > ul > li {
+    position: relative;
+    margin-right: 20px;
+}
+
+.nav > ul > li > a {
+    color: white;
+    text-decoration: none;
+    padding: 10px;
+    display: inline-block;
+}
+
+/* Dropdown menu for 'TOP' */
+.dropdown {
+    position: absolute;
+    top: 100%;
+    left: 0;
+    background-color: white;
+    display: none;
+    min-width: 200px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+}
+
+.dropdown li {
+    list-style-type: none;
+}
+
+.dropdown li a {
+    display: block;
+    padding: 10px;
+    text-decoration: none;
+    color: black;
+    border-bottom: 1px solid #f0f0f0;
+}
+
+.dropdown li a:hover {
+    background-color: #f0f0f0;
+}
+
+.nav > ul > li:hover .dropdown {
+    display: block;
+}
+
+.nav > ul > li > a.bottom {
+    margin-right: 0;
+}
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: Arial, sans-serif;
+}
+
+footer {
+    background-color: #222;
+    color: white;
+    padding: 40px 0;
+    font-size: 14px;
+}
+
+.footer-container {
+    display: flex;
+    justify-content: space-around;
+    flex-wrap: wrap;
+    padding: 20px;
+}
+
+.footer-section {
+    width: 200px;
+    margin: 10px;
+}
+
+.footer-section h3 {
+    margin-bottom: 20px;
+}
+
+.footer-section ul {
+    list-style: none;
+}
+
+.footer-section ul li {
+    margin-bottom: 10px;
+}
+
+.footer-section ul li a {
+    text-decoration: none;
+    color: white;
+}
+
+.footer-section ul li a:hover {
+    color: #ccc;
+}
+
+/* ปุ่ม Submit */
+.newsletter {
+    text-align: right;
+    padding: 20px 0;
+    display: flex;
+    flex-direction: row;
+}
+
+.newsletter input[type="search"] {
+    padding: 10px;
+    width: 300px;
+    border: none;
+    margin-right: 10px;
+}
+
+.newsletter button {
+    padding: 10px 20px;
+    background-color: #444;
+    color: white;
+    border: none;
+    cursor: pointer;
+}
+
+.newsletter button:hover {
+    background-color: #555;
+}
+
+.footer-bottom {
+    text-align: center;
+    padding: 20px;
+    border-top: 1px solid #444;
+    margin-top: 20px;
+}
+
+.footer-bottom p {
+    margin-bottom: 10px;
+}
+
+.payment-methods img {
+    margin: 0 10px;
+}
+.logobadboi{
+    width: 250px; 
+    height: 50px;
+}
